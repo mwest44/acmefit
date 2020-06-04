@@ -24,6 +24,7 @@ Create New Namespace and set context:
 	kubectl config view --minify | grep ‘namespace: acme-fit’
 
 Enable RunAsRoot ClusterRole
+
 	kubectl apply -f ~/demo-applications/allow-runasnonroot-clusterrole.yaml
 
 
