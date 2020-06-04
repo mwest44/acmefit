@@ -4,6 +4,7 @@ Deploy ACMEFIT Application
 
 Clone ACMEFIT REPO
 	cd ~/demo-applications   (this is the directory I used, yours may be different)
+	
 	git clone https://github.com/vmwarecloudadvocacy/acme_fitness_demo.git
 
 Connect to TK Cluster:
