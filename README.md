@@ -18,6 +18,7 @@ Connect to TK Cluster:
 
 
 Create New Namespace and set context:
+
 	kubectl create namespace acme-fit	 
 	kubectl config set-context --current --namespace=acme-fit
 	kubectl config view --minify | grep ‘namespace: acme-fit’
